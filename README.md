@@ -11,12 +11,12 @@
 
 ### Примеры запуска
 
+Читает данные из агрументов программы.
 ```bash
 java -jar <filename>.jar the quick brown fox jumps over the lazy dog
 ```
 
-или
-
+Читает данные из stdin, только первую строку.
 ```bash
 echo "the quick brown fox jumps over the lazy dog" | java -jar <filename>.jar
 ```
